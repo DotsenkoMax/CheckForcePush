@@ -1,0 +1,9 @@
+-- How to squashe n last commits in remote repo
+
+1) git rebase -i HEAD~n
+2) Заменить все кроме первого pick на squash
+3) esc + :wq
+4) esq +:wq
+5) git commit --amend -m "Change last commit message" 
+
+
